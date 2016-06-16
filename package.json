@@ -11,7 +11,18 @@
     "type": "git",
     "url": "git+https://github.com/grindcode/tiny-pulsar.git"
   },
-  "keywords": [],
+  "keywords": [
+    "scroll",
+    "resize",
+    "raf",
+    "performance",
+    "60fps",
+    "onscroll",
+    "event",
+    "callback",
+    "browser",
+    "isomorphic"
+  ],
   "author": "Isis T. Baulig",
   "license": "MIT",
   "bugs": {
