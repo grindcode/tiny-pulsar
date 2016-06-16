@@ -1,4 +1,4 @@
-# tiny-pulsar
+# Tiny Pulsar
 [![Build Status](https://travis-ci.org/grindcode/tiny-pulsar.svg?branch=master)](https://travis-ci.org/grindcode/tiny-pulsar) [![Test Coverage](https://codeclimate.com/github/grindcode/tiny-pulsar/badges/coverage.svg)](https://codeclimate.com/github/grindcode/tiny-pulsar/coverage) [![Dependency Status](https://david-dm.org/grindcode/tiny-pulsar.svg)](https://david-dm.org/grindcode/tiny-pulsar) [![devDependency Status](https://david-dm.org/grindcode/tiny-pulsar/dev-status.svg)](https://david-dm.org/grindcode/tiny-pulsar#info=devDependencies)
 
 Minimal footprint library that triggers a callback when the user scrolls or resizes the browser.
