@@ -20,10 +20,10 @@ test('register', function (t) {
 
 test('deregister', function (t) {
   t.plan(1)
-  pulsar.register('should not be caled', function () {
+  pulsar.register('should not be called', function () {
     t.fail()
   })
-  pulsar.deregister('should not be caled')
+  pulsar.deregister('should not be called')
   fireEvent()
   t.pass()
 })
