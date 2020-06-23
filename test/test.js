@@ -4,8 +4,8 @@ require('jsdom-global')()
 var pulsar = require('../index.js')
 
 var fireEvent = function () {
-  var scrollEvent = window.document.createEvent("Event")
-  scrollEvent.initEvent("scroll", true, true)
+  var scrollEvent = window.document.createEvent('Event')
+  scrollEvent.initEvent('scroll', true, true)
   window.dispatchEvent(scrollEvent)
 }
 
