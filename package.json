@@ -4,8 +4,7 @@
   "description": "Minimal footprint library that triggers a callback when the user scrolls or resizes the browser.",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js",
-    "report": "nyc tape test/*.js && nyc report --reporter=text-lcov | codeclimate-test-reporter"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -30,13 +29,11 @@
   },
   "homepage": "https://github.com/grindcode/tiny-pulsar#readme",
   "dependencies": {
-    "raf": "^3.2.0"
+    "raf": "^3.4.1"
   },
   "devDependencies": {
-    "codeclimate-test-reporter": "^0.4.0",
-    "jsdom": "^9.2.1",
-    "jsdom-global": "^2.0.0",
-    "nyc": "^10.0.0",
-    "tape": "^4.5.1"
+    "jsdom": "^16.2.2",
+    "jsdom-global": "^3.0.2",
+    "tape": "^5.0.1"
   }
 }
