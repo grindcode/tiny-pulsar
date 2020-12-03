@@ -1,6 +1,6 @@
 {
   "name": "tiny-pulsar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal footprint library that triggers a callback when the user scrolls or resizes the browser.",
   "main": "index.js",
   "scripts": {
